@@ -29,7 +29,7 @@ public class Switch01 {
         }
 
         //2.Yol: switch
-        switch(dayName){
+   switch(dayName){
 
             case "Sunday":
                 System.out.println(1);
