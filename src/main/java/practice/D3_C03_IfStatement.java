@@ -53,6 +53,5 @@ public class D3_C03_IfStatement {
         System.out.println(sonuc);
   */
 
-
     }
     }
