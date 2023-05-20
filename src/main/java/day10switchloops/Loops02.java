@@ -26,6 +26,12 @@ public class Loops02 {
                 System.out.println(ch.toUpperCase());
             }
         }
+                String ns = "";
+        for (int i = 0; i < s.length(); i++) {
+            if(i%2==0) ns=ns.concat(Character.toString(s.charAt(i)).toUpperCase());
+            else ns=ns.concat(Character.toString(s.charAt(i)));
+        }
+        System.out.println("ns = " + ns);
     }
 
 }
