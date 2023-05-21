@@ -27,13 +27,13 @@ public class WhileLoop01 {
 
         System.out.print("Lütfen bir kelime giriniz: ");
         String word = input.next();
-        String newWord = "";
+        StringBuilder newWord = new StringBuilder();
 
         int k = 0;
 
         while (k < word.length()) {
 
-            newWord += word.charAt(k) + "*";
+            newWord.append(word.charAt(k)).append("*");
 
             k++;
         }
