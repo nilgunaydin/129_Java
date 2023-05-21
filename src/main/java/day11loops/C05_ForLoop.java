@@ -37,7 +37,7 @@ public class C05_ForLoop {
 
         System.out.println("**********************************************");
 
-        //Example4 : Bir tamsayinin rakmalarinin toplamini bulan kodu yaziniz
+        //Example4 : Bir tamsayinin rakamlarinin toplamini bulan kodu yaziniz
 
         Scanner input = new Scanner(System.in);
         System.out.print("Lütfen bir tamsayi giriniz :");
