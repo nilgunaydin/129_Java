@@ -43,7 +43,7 @@ public class ArrayLists02 {
         }
         System.out.println(sum);//26
 
-        //II.YOL: ffor-loop
+        //II.YOL: for-loop
         int toplam = 0;
         for (int i = 0; i < cities.size(); i++) {
             toplam += cities.get(i).length();
