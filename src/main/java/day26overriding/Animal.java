@@ -18,7 +18,7 @@ package day26overriding;
     Overriden Method==>default ise Overriding method ==> default +protected+ public
     Overriden Method==>private ise Overriding method ==> override olmaz ki acces modifier olsun. bkz 5. kural
 
-  7)Child class'da override edilen method'un(Overriding Method) return typ'i methodu'un return ettigi data type'inin aynisi veya o data type'inin parent'i olarak secilir.
+  7)Child class'da override edilen method'un (Overriding Method) return typ'i methodu'un return ettigi data type'inin aynisi veya o data type'inin parent'i olarak secilir.
 
   8)Method'un return type'i "primitive" ise, Overriding yaparken return type degistirilemez. Cunku return type ya
     ayni olur ya da parent'dan secilir ama primitive'ler arasinda parent-child iliskisi olmadigindan parent'dan secmek
