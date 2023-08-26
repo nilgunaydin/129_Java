@@ -38,7 +38,7 @@ public class WhileLoop01 {
 
         System.out.println();
         //Interview Question *****
-        //Example 3: Verilen bir amsayinin rakamlari toplamini console'a yazdiriniz
+        //Example 3: Verilen bir tamsayinin rakamlari toplamini console'a yazdiriniz
 
         //Note: Sayi %10 herzaman sayinin son rakamini verir
 

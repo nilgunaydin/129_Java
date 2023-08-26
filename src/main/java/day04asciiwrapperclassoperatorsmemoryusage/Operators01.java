@@ -42,7 +42,7 @@ public class Operators01 {
         System.out.println(first + " - " + second + " - " + third);
         System.out.println(first && second);
         System.out.println(first || second || third);
-
+        System.out.println(3/2);
     }
 
 }

@@ -6,7 +6,7 @@ public class C01Variables {
 
         //Variable olusturmak
         //Java cumlesi = Statement
-        //Java'da esittir demek "==". Yani Matematik'de "=", Java'dd "=="
+        //Java'da esittir demek "==". Yani Matematik'de "=", Java'da "=="
         //Java'da "=" "assignment operator" dir. Sagdaki degeri alir soldaki kutuya koyar
         //Access Modifier yazmazsaniz "access modifier" "default" demektir
         //Data Type + Variable Name ==> Variable Declaration
@@ -41,7 +41,7 @@ public class C01Variables {
         char isminIlkHarf = 'A';
 
         //Ornek 3: boolean data type'inde emeklimisin icin bir variable olusturun ve false degerini atayin.
-        boolean emeklimisin = false;
+        boolean emekliMisin = false;
 
         //Ornek 4: byte data type'inda ogrenci yasi icin bir variable olusturunuz ve deger atayiniz.
         byte studentAge = 23;

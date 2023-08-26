@@ -93,7 +93,7 @@ public class StringManipulations01 {
         int idxJava = u.indexOf("Java");
         System.out.println(idxJava);//3
 
-        //indexOf() method'u omayan character'ler icin kullanilirsa her zaman "-1" verir.
+        //indexOf() method'u olmayan character'ler icin kullanilirsa her zaman "-1" verir.
         int idxOfXyz = u.indexOf("xyz");
         System.out.println(idxOfXyz);//-1
 
@@ -117,22 +117,24 @@ public class StringManipulations01 {
 
         //Example 9: Bir String'deki tekrarsiz character'leri ekrana yazdiriniz.
         //           abbccdc ==> ad
-        String y = "aac";
-
-        char ch1 = y.charAt(0);
-        if(y.indexOf(ch1)==y.lastIndexOf(ch1)){
-            System.out.println(ch1);
+        String y = "abbqacethh";
+        for (int i = 0; i < y.length() ; i++) {
+            if(y.indexOf(y.charAt(i))==y.lastIndexOf(y.charAt(i))) System.out.println(y.charAt(i));
         }
-
-        char ch2 = y.charAt(1);
-        if(y.indexOf(ch2)==y.lastIndexOf(ch2)){
-            System.out.println(ch2);
-        }
-
-        char ch3 = y.charAt(2);
-        if(y.indexOf(ch3)==y.lastIndexOf(ch3)){
-            System.out.println(ch3);
-        }
+//        char ch1 = y.charAt(0);
+//        if(y.indexOf(ch1)==y.lastIndexOf(ch1)){
+//            System.out.println(ch1);
+//        }
+//
+//        char ch2 = y.charAt(1);
+//        if(y.indexOf(ch2)==y.lastIndexOf(ch2)){
+//            System.out.println(ch2);
+//        }
+//
+//        char ch3 = y.charAt(2);
+//        if(y.indexOf(ch3)==y.lastIndexOf(ch3)){
+//            System.out.println(ch3);
+//        }
 
         //Note: Bazi kodlarin bazi sartlara bagli olarak calismasi gerekir.
         //      Bazi kodlari bazi sartlara gore aktive etmek icin "if statement" kullanilir.

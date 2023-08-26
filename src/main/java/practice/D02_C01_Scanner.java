@@ -1,5 +1,5 @@
 package practice;
-
+//done
 import java.util.Scanner;
 
 public class D02_C01_Scanner {

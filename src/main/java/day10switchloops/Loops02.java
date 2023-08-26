@@ -13,7 +13,7 @@ public class Loops02 {
 
         System.out.println();
 
-        //Example 2: Size verilen kucuk harfle yazilmis String'in index'i cift sayi olan caharacter'lerini buyuk harf yapiniz
+        //Example 2: Size verilen kucuk harfle yazilmis String'in index'i cift sayi olan character'lerini buyuk harf yapiniz
         //           ankara ==> AKR
         //Note: Yazdiginiz code belli senaryolar icin calisiyor, tum senaryolar icin calismiyorsa; bu code'a
         //      "hard-code" denir. "hard-code" yanlis yazilmis code'dur, mutlaka duzeltilmelidir.
