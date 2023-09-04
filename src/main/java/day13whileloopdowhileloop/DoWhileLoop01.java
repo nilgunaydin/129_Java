@@ -20,7 +20,7 @@ public class DoWhileLoop01 {
         } while (k < 1);
 
         //Note 1: do-while body calisti
-        //Note 2: do-while kullandiginizda loop body en ay bir kere calisir
+        //Note 2: do-while kullandiginizda loop body en az bir kere calisir
         //Note 3: do-while da "Zero execution" mümkün degildir
 
         /*

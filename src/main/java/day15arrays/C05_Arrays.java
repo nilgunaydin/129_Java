@@ -41,7 +41,7 @@ public class C05_Arrays {
         Arrays.sort(crr,Comparator.comparingInt(String::length).reversed().thenComparing(Comparator.naturalOrder()));
         System.out.println(Arrays.toString(crr));
 
-        //Note : Arrays.sort(crr,Comparator.comparingInt(String::length).reversed() burada java karakter sayisina göre kücükten büyüge dogru siralarken
+        //Note : Arrays.sort(crr,Comparator.comparingInt(String::length).reversed() burada java karakter sayisina göre buyukten kucuge dogru siralarken
         //       Arrays.sort(crr,Comparator.comparingInt(String::length).reversed().thenComparing(Comparator.naturalOrder())) hem yukaridaki isi yapar, hem de kendi icerisinde
         //       alfabetik siralamaya göre islem yapar.
         //       reversed==> buyukten kucuge diz

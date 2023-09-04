@@ -21,11 +21,11 @@ public class Md01 {
         a[2][1]=0;
         System.out.println(Arrays.deepToString(a)); //[[5, 12], [81, 45], [123, 0]]
 
-        //Note :  Array'lere non-primitive data Dkonulamaz
+        //Note :  Array'lere non-primitive data konulamaz
         //      Adresler non-primitive degildir.
-        // Array'lere primitive data veya referance konulur
-        // Ama siz bir array'i yazdirmak istediginizde Java adres'ler yardimi ile non-primitive data'ya ulasir
-        // ve o non-primitive data'yi sanki array'in icindeymis gibi gosterir.
+        //      Array'lere primitive data veya referance konulur
+        //      Ama siz bir array'i yazdirmak istediginizde Java adres'ler yardimi ile non-primitive data'ya ulasir
+        //      ve o non-primitive data'yi sanki array'in icindeymis gibi gosterir.
 
         String b[] = {"Tom","Hanks","Tom Hanks"};
 
