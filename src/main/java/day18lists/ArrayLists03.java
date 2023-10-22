@@ -2,6 +2,7 @@ package day18lists;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 
 public class ArrayLists03 {
@@ -19,12 +20,13 @@ public class ArrayLists03 {
         System.out.println(a);//[12, 19, 15, 30, 21]
         Collections.sort(a);
         System.out.println("a = " + a);//a = [12, 15, 19, 21, 30]
-
+      //  HashMap<Integer,Integer> yakinSayilar = new HashMap<>();
         int minFark = Integer.MAX_VALUE;//default deger olarak max.sayiyi atadim ki
         // iki sayiyi karsilastirdiginda her halukarda listede ki sayi secilsin diye
 
         for (int i = 1; i < a.size(); i++) {
             minFark = Math.min(minFark, a.get(i) - a.get(i - 1));
+          //  yakinSayilar.get(0);
         }
         System.out.println(minFark);
 

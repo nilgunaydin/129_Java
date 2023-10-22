@@ -47,7 +47,7 @@ public class ArrayLists02 {
 
         do {
             System.out.println("Lutfen istediginiz urunun harfini giriniz");
-            urun = input.next().substring(0, 1);
+            urun = input.next().substring(0, 1).toUpperCase();
 
             if (c.contains(urun)) {
                 c.set(c.indexOf(urun), "Ayrildi");

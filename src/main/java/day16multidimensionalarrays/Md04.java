@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Md04 {
     public static void main(String[] args) {
 
-        //Bir multi-dimensional array olusturunuz ve bir dimensionalli array donusturunuz.
+        //Bir multi-dimensional array olusturunuz ve tek dimensionalli array donusturunuz.
         //           [ [2, 5], [3] , [4,7,11] ] ==> [2, 5, 3, 4, 7, 11]
         int a[][] = { {2, 5}, {4, 7, 11}};
         System.out.println(Arrays.deepToString(a));
