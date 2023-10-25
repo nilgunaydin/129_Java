@@ -25,6 +25,8 @@ public class Lists02 {
         databaseIsim.add("OKAN51");
         databaseIsim.add("OKAN22");
         databaseIsim.add("OKAN");
+        databaseIsim.add("OKAN64");
+        databaseIsim.add("OKAN84");
 
         Scanner input = new Scanner(System.in);
         System.out.println("Lütfen kullanici adinizi giriniz: ");

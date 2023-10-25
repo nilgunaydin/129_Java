@@ -11,12 +11,22 @@ public class C06_Varargs {
         Varargs en sonda olmak sartiyla  bir method olustururken farkli data type'lari kullanilabilir****
         Varargs 'lar bir methodda birden fazla kullanilamaz == unreachable code olur
          */
-
+int sonuc;
         ikiSayiyiTopla(2, 3);
         ucSayiyiTopla(6, 8, 14);
         dortSayiyiTopla(56, 96, 40, 30);
+      sonuc =   topla(4,5,6,7,8,9,10,37322,9);
+        System.out.println(sonuc);
 
     }
+
+    private static int topla(int... sayilar) {
+        int sayi = 0;
+
+        for (int a: sayilar) {
+            sayi+=a;
+        }
+    return sayi;}
 
     private static int dortSayiyiTopla(int i, int i1, int i2, int i3) {
 

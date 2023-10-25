@@ -20,6 +20,7 @@ public class C04_PassByValueList {
         harfler.add("B");
         harfler.add("C");
         harfler.add("D");
+        System.out.println(harfler);
 
         listElemanlariniDegistir(harfler);
         System.out.println("Main icinde methoddan sonra harfler " + harfler);// [R, B, C, D]
