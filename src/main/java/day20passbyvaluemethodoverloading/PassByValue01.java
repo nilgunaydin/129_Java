@@ -3,7 +3,7 @@ package day20passbyvaluemethodoverloading;
 public class PassByValue01 {
 
     /*
-        1) Java "pas-by-value" sayesinde variable'lerin orjinal degerini koruma latina alir.
+        1) Java "pass-by-value" sayesinde variable'lerin orjinal degerini koruma latina alir.
 
 
 

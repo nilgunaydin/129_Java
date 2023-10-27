@@ -91,20 +91,22 @@ public class StringBuilder01 {
         StringBuilder sb6 = new StringBuilder("Java");
 
         //sb5.compareTo(sb6) method'u sb5 ile sb6 yi alphabetic siralama olarak karsilastirir.
-        //sb5 alphabetic siralamada once ise sonuc negative olur, sonra ise sonuc positive olur.
-        System.out.println(sb5.compareTo(sb6));//-1
+        //sb5 alphabetic siralamada once ise sonuc negative olur, sonra ise sonuc positive olur.✅
+        System.out.println(sb5.compareTo(sb6));//1
+        System.out.println(sb6.compareTo(sb5));//-1
+        System.out.println(sb5.compareTo(sb5));//0
 
         //setCharAt(2, 'm'); index 2 deki character'i 'm' ye cevirir
         sb6.setCharAt(2, 'm');
         System.out.println(sb6);//Jama
 
-        sb6.replace(1, 3, "xyz");
-        System.out.println(sb6);//Jxyza
+        sb6.replace(1, 3, "xNilgunyz");
+        System.out.println(sb6);//JxNilgunyza
 
         //StringBuilder Class'da kullanmamiza izin verilen substring() method gibi bazi String Class method'lari vardir,
         //bu method'lari StringBuilder ustunde kullaninca StringBuilder'in orijinal degeri degismez
         String s7 = sb6.substring(1, 3);
-        System.out.println(s7);//xy
-        System.out.println(sb6);//Jxyza
+        System.out.println(s7);//xN
+        System.out.println(sb6);//JxNilgunyza
     }
 }

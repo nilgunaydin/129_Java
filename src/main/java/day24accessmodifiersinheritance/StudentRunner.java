@@ -1,6 +1,6 @@
 package day24accessmodifiersinheritance;
 
-public class StudentRunner {
+ class StudentRunner {
     public static void main(String[] args) {
 
         Student can= new Student();

@@ -24,8 +24,8 @@ public class DateTime01 {
         System.out.println(LocalDateTime.now()); //2023-01-07T21:37:10.862869
 
         //Dünyanin herhangi bir saat dilimindeki saati nasil aliriz?
-        System.out.println(LocalDateTime.now(ZoneId.of("Europe/Berlin")));//2023-01-07T21:40:33.018436+01:00[Europe/Berlin]
-        System.out.println(LocalDateTime.now().atZone(ZoneId.of("Asia/Tokyo")));//2023-01-07T21:40:33.018436+01:00[Europe/Berlin]
+        System.out.println(LocalDateTime.now(ZoneId.of("Europe/Istanbul")));//2023-01-07T21:40:33.018436+01:00[Europe/Berlin]
+        System.out.println(LocalDateTime.now().atZone(ZoneId.of("Europe/Istanbul")));//2023-01-07T21:40:33.018436+01:00[Europe/Berlin]
         System.out.println(LocalDateTime.now().atZone(ZoneId.of("Europe/Moscow")));//2023-01-07T21:40:33.018436+01:00[Europe/Berlin]
 
         //Ilerideki bir tarihe nasil gidilir?
