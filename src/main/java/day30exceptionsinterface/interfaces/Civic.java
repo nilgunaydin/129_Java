@@ -7,7 +7,7 @@ package day30exceptionsinterface.interfaces;
           Bu yapi sayesinde bir Class icin coklu interface parent olusturabiliriz.
         3)Coklu interface parent'larin herbirinin icine ayni isimli method'lar koyabiliriz.
           Mesela AC'nin, Engine'nin ve Security'nin herbir iclerine "run method"u koymak gibi.
-          Child Class herhangibirisini override ettiginde hepsini Override etmis gibi olur sonra da
+          Child Class herhangi birisini override ettiginde hepsini Override etmis gibi olur sonra da
           body'i Child Class'da yazarak uygulamasini yapmis olur.
 
      */
