@@ -40,6 +40,7 @@ public class Exceptions01 {
     public static void divide(int a, int b) {
 
         try {
+            System.out.println("i'm there");
             System.out.println(a / b);
 
             System.out.println("I'm here");

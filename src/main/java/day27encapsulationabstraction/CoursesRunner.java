@@ -14,6 +14,7 @@ public class CoursesRunner{
 
 
         // Courses myCourse = new Courses();
+         Courses myCourse = new EightGraders();
 
 
     }

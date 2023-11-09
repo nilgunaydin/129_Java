@@ -1,6 +1,6 @@
 package day29exceptions;
 
-public class Exception02 {
+public class Exceptions02 {
 
 /*
       "throw" ile "throws" keyword'leri arasindaki fark nedir?

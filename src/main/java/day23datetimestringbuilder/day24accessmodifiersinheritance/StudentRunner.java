@@ -1,4 +1,4 @@
-package day24accessmodifiersinheritance;
+package day23datetimestringbuilder.day24accessmodifiersinheritance;
 
  class StudentRunner {
     public static void main(String[] args) {

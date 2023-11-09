@@ -38,7 +38,7 @@ public class C06_Exceptions {
         double sonuc = 0;
         try {
             length2 = str.length();
-            i = Integer.valueOf(str);
+                i = Integer.valueOf(str);
             sonuc = i / length2;
 
         } catch (NumberFormatException e) {

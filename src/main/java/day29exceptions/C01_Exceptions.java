@@ -10,6 +10,7 @@ public class C01_Exceptions {
         6 )  FileNotFoundExceptions
         7 ) IOExceptions
 
+        FileInputStream
         Javada bir Dataya ulasmak istedigimizde kullaniriz.
         Bir obje olustururuz.Cesitli methodlari vardir.
          read() ==> Tas'teki Datalari okuyor ve getiriyor.Okuyacak hic bir data kalmadiginda -1 donduruyor
@@ -17,12 +18,13 @@ public class C01_Exceptions {
          available () ==> Task'te kac byte'lik data oldugunu size gosterir
          */
 
-        FileInputStream fis = new  FileInputStream ("src/main/java/day29exceptions/TaskExceptions");
+        FileInputStream fis = new  FileInputStream ("src/main/java/day29exceptions/File01.txt");
 
-        int i;
+        int i = 0;
 
         try {
-            while((i = fis.read()) != -1 ){
+            while(i != -1 ){
+                i = fis.read();
                 System.out.print((char)i);
 
             }

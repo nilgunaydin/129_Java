@@ -7,7 +7,7 @@ public class C02_Exceptions {
     public static void main(String[] args) throws FileNotFoundException {
 
         try {
-            FileInputStream fis = new FileInputStream("src/main/java/day29exceptions/TaskExceptions");
+            FileInputStream fis = new FileInputStream("src/main/java/day29exceptions/File01.txt");
             fis.skip(45); //45 byte'lik data atlanildi
             System.out.println("45 baytlik data atlanildi");
             int i = fis.read();

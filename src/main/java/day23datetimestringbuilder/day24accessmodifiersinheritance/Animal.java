@@ -1,4 +1,4 @@
-package day24accessmodifiersinheritance;
+package day23datetimestringbuilder.day24accessmodifiersinheritance;
 
 public class  Animal {
 
