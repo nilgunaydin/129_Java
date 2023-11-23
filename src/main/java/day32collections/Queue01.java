@@ -11,7 +11,7 @@ public class Queue01 {
    Bazen de son gelen ilk isleme girer.(Last In First Out ==> LIFO)
    "Deque" ==> "Double Ended Queue" hem "FIFO" hem de "LIFO" icin kullanilir.
 
-   "Queeu" bir interface'dir, bu yüzden "constructor"i yoktur. Dolayisiyla object olustururken "new" keyword'unden sonra kullanilmaz
+   "Queue" bir interface'dir, bu yüzden "constructor"i yoktur. Dolayisiyla object olustururken "new" keyword'unden sonra kullanilmaz
    Data Tyoe'i "Queue" olan bir object olusturmak icin "new" keyword'den sonra
    i) LinkedList
    ii)Priority Queue Classlari kullanilabilir.

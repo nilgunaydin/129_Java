@@ -7,7 +7,7 @@ public class LinkedList01 {
     /*
         1)Interface'lerden object olusturulamaz. Cünkü interface'lerin constructor'i yoktur.
         2)Abstract class'lardan object olusturulamaz.Constructor'lari vardir ama constructor object olusturmada kullanilamaz.
-        3)Interfadce'lerin constructor'lari olmadigindan, collection olustururken interface isimleri "new" keyword'unden sonra kullanilamaz.
+        3)Interface'lerin constructor'lari olmadigindan, collection olustururken interface isimleri "new" keyword'unden sonra kullanilamaz.
         4) *class-->class==>extends
            class-->interface==>implements
            *interface-->interface==> extends

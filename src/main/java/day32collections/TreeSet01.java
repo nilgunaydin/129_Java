@@ -56,7 +56,7 @@ public class TreeSet01 {
 
         //"ceiling()" method'unda kullanabilceginiz sayi en buyuk elemandan fazla olamaz.
         int ceiling2 = ts.ceiling(25);
-        System.out.println(ceiling2);//25==> 12 elemanlardan biri o yuzden 25 direkt yazdirildi
+        System.out.println(ceiling2);//25==> 25 elemanlardan biri o yuzden 25 direkt yazdirildi
 
         SortedSet<Integer> tailSet1 = ts.tailSet(12);
         System.out.println(tailSet1);//[12, 25, 32]==>12 elemanlardan biri o yuzden 12 ve sonraki elemanlar bir Set icinde yazdirildi
