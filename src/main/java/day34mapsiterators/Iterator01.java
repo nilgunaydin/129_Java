@@ -15,8 +15,8 @@ public class Iterator01 {
         Loop'lar ile Iterator'in performans farki yoktur ama Iterator'lar eleman silme ve update etmede daha basarilidirlar.
 
         Iki tip Iterator var:
-        1) Iterator : Sadece eleman'lari remove edebilirsiniz --> Sifreleri bir yerden kaldirmak icin kesinlikle Iterator kullanilir. Kesinlik update edilemezler.
-                      Sadece sol'Dan saga calisir, Foreach loop gigi tek yönlü calisirlar.
+        1) Iterator : Sadece eleman'lari remove edebilirsiniz --> Sifreleri bir yerden kaldirmak icin kesinlikle Iterator kullanilir. Iterator'a eleman update edilemezler.
+                      Sadece sol'dan saga calisir, Foreach loop gibi tek yönlü calisirlar.
         2) ListIterator : Eleman'i remove etme, update etme ve add etme  yapabilirsiniz
                           Hem soldan saga hem de sagdan sola calisabilir, yani cift yönlüdür.
     */

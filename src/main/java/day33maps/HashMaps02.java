@@ -39,7 +39,7 @@ public class HashMaps02 {
         for (String w : wordsArray) {
             Integer numOfOccurence = wordsMap.get(w);
 
-            if (numOfOccurence==null){
+                if (numOfOccurence==null){
                 wordsMap.put(w,1);
             }else{
                 wordsMap.put(w,numOfOccurence+1);

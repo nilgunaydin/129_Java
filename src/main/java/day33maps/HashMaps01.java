@@ -8,14 +8,14 @@ public class HashMaps01 {
         sozluk yapisi map'a benzer
         solda kelime, sagda aciklamasi vardir
         soldakiler tekrarli olamaz sagda tekrar olabilir
-        map te boyledir soldakiler Unique (yunik) olacak sag taraf tekrarli olabilir de olmayapilir repeatedly (tekrarli) olabilir
+        map te boyledir soldakiler Unique olacak sag taraf tekrarli olabilir de olmayabilir repeatedly (tekrarli) olabilir
         cat = evcil hayvan
         dog = evcil hayvan
         crocodile = timsah
         tiger = kaplan
         solda data sagda data
         map deyince sozluk akla gelsin
-        sola unique lere key tekrarli olabilen sagdaki data lara value denir
+        sola unique'lere key ,tekrarli olabilen sagdaki data lara value denir
 
         map te bir data stractir dir
         depolarken bu yapiya ihtiyac varsa map kullaniriz
